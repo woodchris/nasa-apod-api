@@ -1,0 +1,36 @@
+html, body {
+    background: url("https://images.unsplash.com/photo-1536697246787-1f7ae568d89a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+section, .container {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+image {
+    display: flex;
+    justify-content: center;
+    position: auto;
+}
+
+.bot {
+    flex: 1 0 auto;
+    text-align: left;
+    clear: both;
+    flex-shrink: 0;
+    background-color: transparent;
+    color: black;
+    position: absolute;
+}
+
+.container1 {
+    display: flex;
+    position: absolute;
+}
+
+rgb(132, 132, 148);
